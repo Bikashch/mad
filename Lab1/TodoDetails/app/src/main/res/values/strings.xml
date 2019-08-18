@@ -3,10 +3,18 @@
     <string name="todo_first">To_First</string>
     <string name="next">Next</string>
     <string name="pevious">prev</string>
+
     <string-array name="todo_first">
         <item>wake up</item>
         <item>Exercise</item>
         <item>Drink Coffee</item>
         <item>Go to work</item>
+    </string-array>
+
+    <string-array name="todo_description">
+        <item>first</item>
+        <item>second</item>
+        <item>third</item>
+        <item>fourth</item>
     </string-array>
 </resources>
