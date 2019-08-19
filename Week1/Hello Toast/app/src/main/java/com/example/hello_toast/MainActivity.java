@@ -1,16 +1,13 @@
 package com.example.hello_toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.res.Resources;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
-    private String[] toast ;
-    private TextView textView;
-    int currentIndex=0;
-    Resources res;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,5 +15,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+    }
+
+    public void Button(View view) {
+
+    }
+
+    public void countUp(View view) {
+    }
+
+    public void show_toast(View view) {
+        Toast toast = Toast.makeText(this, R.string.toast_message,
+                Toast.LENGTH_SHORT);
+        toast.show();
     }
 }
