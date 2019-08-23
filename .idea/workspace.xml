@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11abd0c6-007d-45ea-aaf1-545fa2406481" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/androidTest/java/com/example/intent_implicit/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/java/com/example/intent_implicit/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/app/src/test/java/com/example/intent_implicit/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/androidTest/java/com/example/intent_implicits/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/java/com/example/intent_implicits/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/app/src/test/java/com/example/intent_implicits/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab1/Intent_Implicit/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/appcompat/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/asynclayoutinflater/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/constraintlayout/widget/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/coordinatorlayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/core/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/customview/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/drawerlayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/fragment/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreui/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreutils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/loader/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/slidingpanelayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/swiperefreshlayout/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/vectordrawable/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/viewpager/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/hello_toast/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/appcompat/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/asynclayoutinflater/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/constraintlayout/widget/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/coordinatorlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/core/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/customview/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/drawerlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/fragment/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/legacy/coreui/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/legacy/coreutils/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/loader/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/slidingpanelayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/swiperefreshlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/vectordrawable/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/androidx/viewpager/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/MainActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/R$mipmap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental-verifier/debug/com/example/hello_toast/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/pAHMn3aoV9TOII0MHHP+vSYJXsA=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/instant_run_app_info_output_file/debug/generateDebugInstantRunAppInfo/instant-run-bootstrap.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/appcompat/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/constraintlayout/widget/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/vectordrawable/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/MainActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/R$mipmap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/hello_toast/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/33/androidx/constraintlayout/widget/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/33/androidx/core/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/33/androidx/drawerlayout/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/34/androidx/coordinatorlayout/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/34/androidx/customview/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/37/androidx/asynclayoutinflater/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/37/androidx/vectordrawable/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/androidx/legacy/coreui/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/androidx/slidingpanelayout/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/androidx/viewpager/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/MainActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/R$integer.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/R$layout.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/R$mipmap.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/R$string.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/R$style.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/38/com/example/hello_toast/R$styleable.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/39/androidx/swiperefreshlayout/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/40/androidx/fragment/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/41/androidx/appcompat/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/41/androidx/legacy/coreutils/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/41/androidx/loader/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexMerger/debug/6/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexMerger/debug/8/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/appcompat/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/asynclayoutinflater/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/constraintlayout/widget/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/coordinatorlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/core/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/customview/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/drawerlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/fragment/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/legacy/coreui/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/legacy/coreutils/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/loader/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/slidingpanelayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/swiperefreshlayout/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/vectordrawable/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/androidx/viewpager/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/MainActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/R$mipmap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/0/com/example/hello_toast/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/instantRun/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello Toast/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/androidTest/java/com/example/hello_toast/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/example/hello_toast/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/test/java/com/example/hello_toast/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Toast/app/src/main/java/com/example/hello_toast/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Toast/app/src/main/java/com/example/hello_toast/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Toast/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Toast/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Toast/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Toast/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="791a622a" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hello_toast/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="todo_first" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/hello_toast/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="195" />
+    <option name="y" value="118" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HelloToastChallenge" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="HelloToastChallenge" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="HelloToastChallenge" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="HelloToastChallenge" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="activity_main" type="c431d0b8:AndroidResGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="791a622a" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-08-22T15:35:28.436Z" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="791a622a" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11abd0c6-007d-45ea-aaf1-545fa2406481" name="Default Changelist" comment="" />
+      <created>1566230636202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566230636202</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22926094" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.3284553" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.3420622" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32242227" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.24227643" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hello_toast/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
