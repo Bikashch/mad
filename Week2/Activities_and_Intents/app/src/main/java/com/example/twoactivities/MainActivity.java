@@ -52,9 +52,40 @@ public class MainActivity extends AppCompatActivity {
                 mReplyTextView.setText(savedInstanceState.getString("reply_text"));
                 mReplyTextView.setVisibility(View.VISIBLE);
             }
+
         }
+
     }
 
+       @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d(LOG_TAG, "onPause");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d(LOG_TAG, "onRestart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d(LOG_TAG, "onResume");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d(LOG_TAG, "onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(LOG_TAG, "onDestroy");
+    }
 
     public void launchSecondActivity(View view) {
         Log.d(LOG_TAG, "Button clicked!");
