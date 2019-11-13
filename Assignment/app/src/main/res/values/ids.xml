@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="taskDescription" type="id" />
+    <item name="taskUpdatedAt" type="id" />
+    <item name="priorityTextView" type="id" />
+    <item name="recyclerViewTasks" type="id" />
+</resources>

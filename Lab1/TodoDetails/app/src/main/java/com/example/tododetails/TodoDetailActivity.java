@@ -18,7 +18,8 @@ private TextView textoutput;
         int todo_index= intent.getIntExtra(MainActivity.Todoindex, 0);
         textoutput=findViewById(R.id.textView3);
         textoutput.setText(""+todo_index);
-        CheckBox checkBoxIsComplete = (CheckBox)findViewById(R.id.checkBoxIsComplete]);
+        CheckBox checkBoxIsComplete = (CheckBox)findViewById(R.id.checkBoxIsComplete);
         checkBoxIsComplete.setOnClickListener();
+
     }
 }

@@ -1,11 +1,11 @@
 package com.example.hello_toast;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
+        import android.os.Bundle;
+        import android.view.View;
+        import android.widget.TextView;
+        import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message,
                 Toast.LENGTH_SHORT);
-                toast.show();
+        toast.show();
 
     }
 

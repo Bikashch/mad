@@ -10,24 +10,28 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private int mCount = 0;
     private TextView mShowCount;
-    public static final String KEY = "com.example.helloconstraint";
+    public static final String KEY = "com.example.key";
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putInt("KEY",mCount);
+
 }
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        if (savedInstanceState != null){
-            mCount = savedInstanceState.getInt("KEY", 0);
-        }
         mShowCount = (TextView) findViewById(R.id.textView);
         mShowCount.setText(""+mCount);
+        if (savedInstanceState != null){
+            mCount = savedInstanceState.getInt("KEY", 0);
+
+        }
+
     }
 
     public void showtoast(View view) {
