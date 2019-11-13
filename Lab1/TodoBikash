@@ -1,0 +1,48 @@
+Name: TodoBikash
+Description 
+TodoBikash is an android based mobile application. It is developed on android studio with java programming language. The Todo App allows the users to create, update, delete, view the tasks. Todo app has also a description state where user can view the task with their description like when it is created what type of priority of task is it. A radio button is used to select the type of priority of the task. 
+Instructions  
+•	Download the zip file or clone the repository
+•	Unzip the file
+•	Open the project on android studio
+•	Run
+Requirements 
+•	Android studio 3.5 or newer 
+•	Android 5.0 (Lollipop)or newer
+Features 
+•	Add a new task 
+•	Update added task
+•	View task 
+•	Delete task 
+Database 
+•	SQLite: SQLite is an open-source relational database i.e. used to perform database operations on android devices such as storing, manipulating or retrieving persistent data from the database. It is embedded in android by default. So, there is no need to perform any database setup or administration task.
+
+Framework Used 
+•	MVVM (Model View ViewModel): MVVM is one of the architectural patterns which enhances separation of concerns, it allows separating the user interface logic from the business (or the back-end) logic. Its target (with other MVC patterns goal) is to achieve the following principle “Keeping UI code simple and free of app logic in order to make it easier to manage”.
+ 
+User Interface 
+ 
+ 
+fig: Main Screen
+ 
+Fig: Adding a task with setting priority high
+
+
+ 
+Fig: adding todo with medium priority 
+
+ 
+     Fig: rotation of the screen 
+ 
+Fig: added todo
+ 
+Fig: Updating the todo 
+ 
+Fig: todo updated 
+ 
+Fig: clearing the TODO
+For .gif file TodoBikash 
+https://bikashch7.imgur.com/all/?third_party=1
+
+
+
